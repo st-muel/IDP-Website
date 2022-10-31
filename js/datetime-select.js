@@ -6,5 +6,5 @@ $().ready(function() {
 
 $('.search-btn').on('click', function(e) {
 	e.preventDefault();
-	document.location.href = '/IDP-Website/success'
+	document.location.href = '/IDP-Website/success.html'
 })
