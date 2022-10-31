@@ -16,7 +16,7 @@ $().ready(function() {
 		var curr = new Date($(this).val());
 		curr.setHours(curr.getHours() + 8);
 		if (curr < date) {
-			alert("You can't time travel!");
+			alert("End date can't be earlier than start date!");
 			e.preventDefault();
 
 			var prev = new Date(date_to_string);
