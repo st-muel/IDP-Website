@@ -136,3 +136,26 @@ body {
 
 	color: #FFFFFF;
 }
+
+.slider-container {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+
+	flex-direction: column;
+
+	width: 80%;
+
+	font-size: 1vw;
+	font-weight: 600;
+
+	color: white;
+}
+
+#slider-range {
+	width: 100%;
+}
+
+.ui-slider-range { background: #8C52FF; }
+.ui-slider { background: white; }
+.ui-widget-content .ui-state-default { background: #8C52FF; }
