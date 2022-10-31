@@ -1,5 +1,73 @@
 body {
+	min-height: 100vh;
+	min-width: 100vw;
+	margin: 0;
+
 	background-color: #36393F;
 
 	font-family: 'Inter', sans-serif;
+}
+
+.container {
+	min-width: 100vw;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 5vw;
+	font-weight: 600;
+	color: white;
+}
+
+.subtitle {
+	font-size: 2vw;
+	font-weight: 400;
+	color: #808080;
+}
+
+.button-container {
+	margin-top: 30px;
+	width: 50%;
+
+	display: flex;
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.version-button {
+	font-size: 2vw;
+	font-weight: 600;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #2D3035;
+
+	border: 2px solid #8C52FF;
+
+	height: 10vw;
+	width: 40%;
+
+	color: white;
+	text-decoration: none;
+
+	transition: 1s ease;
+}
+
+.version-button:hover {
+	font-size: 2.1vw;
+	background-color: #212121;
+}
+
+.version-button:visited {
 }
