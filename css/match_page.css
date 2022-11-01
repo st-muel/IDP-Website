@@ -21,7 +21,6 @@ body {
 }
 
 .navbar {
-	width: 5%;
 	height: 100%;
 }
 
@@ -159,3 +158,37 @@ body {
 .ui-slider-range { background: #8C52FF; }
 .ui-slider { background: white; }
 .ui-widget-content .ui-state-default { background: #8C52FF; }
+
+.match-container {
+	display: flex;
+	flex-grow: 1;
+
+	height: 100%;
+
+	flex-direction: column;
+}
+
+.match {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+
+	font-size: 5.5vw;
+	font-weight: 600;
+	letter-spacing: .2rem;
+
+	color: white;
+}
+
+.match-result {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+
+	font-size: 1.5vw;
+	font-weight: 500;
+
+	color: #808080;
+}
